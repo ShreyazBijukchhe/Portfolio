@@ -188,18 +188,18 @@ button, a {
   padding: 32px;
   display: grid;
   gap: 24px;
-  justify-items: start;
+  justify-items: center;
+  align-items: center;
 }
 
 .profile-photo {
-  width: 160px;
-  height: 160px;
+  width: 448px;
+  height: 448px;
   border-radius: 28px;
   overflow: hidden;
   display: grid;
   place-items: center;
   background: linear-gradient(135deg, rgba(99, 102, 241, 0.18), rgba(15, 23, 42, 0.95));
-  border: 1px solid var(--border);
 }
 
 .profile-photo img {
